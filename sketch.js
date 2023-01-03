@@ -66,13 +66,7 @@ function keyPressed(){
 
 }
 
-//crie uma função para exibir a bala
-function showCannonBalls(ball, index){
-
-  ball.display();
-
-}
-
+//CRIE A FUNÇÃO PARA EXIBIR A BALA 
 
 
 function keyReleased() {
