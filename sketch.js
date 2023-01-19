@@ -6,7 +6,7 @@ var engine, world, backgroundImg;
 var canvas, angle, tower, ground, cannon;
 //crie uma matriz vazia
 
-var balls = [];
+
 
 
 function preload() {
@@ -53,7 +53,6 @@ function draw() {
   
 }
 
-//crie uma função de acionamento de tecla
 
 function keyPressed(){
 
@@ -68,11 +67,5 @@ function keyPressed(){
 
 //CRIE A FUNÇÃO PARA EXIBIR A BALA 
 
-
-function keyReleased() {
-  if (keyCode === DOWN_ARROW) { 
-    balls[balls.length - 1].shoot();
-  }
-}
 
 
